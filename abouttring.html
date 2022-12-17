@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tring</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    </head>
+    <body>
+        <section class="sub-header">
+            <nav>
+                <a href="index.html"><img src="images/T-removebg-preview.png"></a>
+                
+                <div class="nav-links" id="navlinks">
+                    <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About us</a></li>
+                        <li><a href="abouttring.html">About Tring</a> </li>
+                       
+                        <li><a href="contacts.html">Contacts</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <div class="txt-box">
+                <h1>About Tring</h1>
+                <section class="abtring">
+                    <H4>About Tring</H4>
+                    <p>Tring is a project deicated to home safety.<br>Itcan be mounted on your door or the wall beside your door.<br> it detect the faces of the person standing in front of it and then  close, open or lock the door by itself, if the photo of the face of a person is stored in the memory of the device and it recognizes it ,then the door opens and closes but if the face is not recognized and it senses some weird movement on the area it recognizes it as an intruder and then locks the door.<br>It also Provides rfid features to smartly open your door .<br>It also has a <b>raspberry pi zero W</b> so that there arent any long wires connected to a single computers .</p>
+                    <p>We are currently testing all the features that it can provide and also improving them.<br> To be clear this project is in the middle of ideating and building stage</p>
+                    <p>It can be a great device for houses where there are small kids who cant open the door on their own or for areas where there a lot of robbery is happening  </p>
+                    <a href="aboutus.html" class="top-btn">Know about our devs</a>
+                </section>
+                
+            </div>
+        </section>
+        
+        <script>
+            var navlinks = document.getElementById("navlinks")
+            function showmenu(){
+                navlinks.style.right = "0";
+            }
+            function hidemenu(){
+                navlinks.style.right = "-200px";
+            }
+        </script>
+        
+        
+    </body>
+</html>

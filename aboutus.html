@@ -1,0 +1,83 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tring</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    </head>
+    <body>
+        <section class="sub-header-us">
+            <nav>
+                <a href="index.html"><img src="images/T-removebg-preview.png"></a>
+                
+                <div class="nav-links" id="navlinks">
+                    <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About us</a></li>
+                        <li><a href="abouttring.html">About Tring</a> </li>
+                       
+                        <li><a href="contacts.html">Contacts</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <div class="txt-box">
+
+                <h1>About Us</h1>
+                
+            </div>
+            
+        </section>
+        <section class="tstmonial" >
+            <h1>About Us</h1>
+            <p>Quotes written by om nirmalkar</p>
+            <div class="row">
+                <div class="tstmonial-col">
+                    <img src="images/om.jpg">
+                    <div>
+                        <p>The ideator,builder and owner.<br>studying in krishna public school raipur india.<br>ATL jr. Vice President and <br>the participant of<br> INSEF national fair 2022</p>
+                        <h3>Om Nirmalkar</h3>
+                    </div>
+                    
+                </div>
+                <div class="tstmonial-col">
+                    <img src="images/pranjal sir.jpg">
+                    <div>
+                        <p>The mentor,supporter and a teacher <br>teaching in Krishna public school.<br>He is the guide of <br>Om Nirmalkar and also his Teacher<br>"Sir Helped Me in Every Case Regarding This Project And Is A Star For Me"</p>
+                        <h3>Pranjal Sharma</h3>
+                    </div>
+                </div>
+                <div class="tstmonial-col">
+                    <img src="images/mummy papa.jpg">
+                    <div>
+                        <p>Mother and father, Supporters, "They Supported Me In Every Aspect Of Any Thing I Would Create,Without Them It Wouldnt Have Been possible For This Project To Be Completed, They Are Like Superheroes To Me" </p>
+                        <h3>Pranjal Sharma</h3>
+                    </div>
+                </div>
+                <div class="tstmonial-col">
+                    <img src="images/Kps.png">
+                    <div>
+                        <p>The Teachers Of Om ,"They Are Also Very Important To Be included , My maths teacher laxmi mam teaches us mathematics which<br> was very important for this project.My Sceince teacher Sushmita mam helped me understand<br>a lot about science and the world around us.My computer teachers Vinay sir and ashish sir taught us coding helping me to <br> easily complete the project.<br>I would like to thank the whole kps group and ATL club and Coders Club for your insane contribution " </p>
+                        <h3>The Kps Group</h3>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        <script>
+            var navlinks = document.getElementById("navlinks")
+            function showmenu(){
+                navlinks.style.right = "0";
+            }
+            function hidemenu(){
+                navlinks.style.right = "-200px";
+            }
+        </script>
+        
+        
+    </body>
+</html>

@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tring</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    </head>
+    <body>
+        <section class="sub-header-con">
+            <nav>
+                <a href="index.html"><img src="images/T-removebg-preview.png"></a>
+                
+                <div class="nav-links" id="navlinks">
+                    <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About us</a></li>
+                        <li><a href="abouttring.html">About Tring</a> </li>
+                       
+                        <li><a href="contacts.html">Contacts</a></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <div class="txt-box">
+
+                <h1>Contact us</h1>
+                
+            </div>
+            
+        </section>
+        <section class="ContactUs" >
+            <h1>Contact us</h1>
+            
+            <h4><i class="fa-solid fa-envelope"></i> Gmail:10457om@kpsraipur.com</h4>
+            <h4><i class="fa-brands fa-twitter"></i> Twitter:https://twitter.com/OMNIRMALKAR100</h4>
+            <h4><i class="fa-sharp fa-solid fa-typewriter" ></i> Forms:https://forms.gle/YYcgXtSNkd3Ka1Sa8</h4>
+            
+           
+            
+        </section>
+        
+        <script>
+            var navlinks = document.getElementById("navlinks")
+            function showmenu(){
+                navlinks.style.right = "0";
+            }
+            function hidemenu(){
+                navlinks.style.right = "-200px";
+            }
+        </script>
+        
+        
+    </body>
+</html>
