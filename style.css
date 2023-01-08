@@ -156,8 +156,13 @@ nav .fa-solid{
     background-size: cover;
     position: relative; ;
 }
+.row{
+    margin-top: 5%;
+    display: flex;
+    justify-content: space-between;
+}
 .tstmonial{
-    width: 50%;
+    width: 80%;
     margin: auto;
     padding-top: 100px;
     text-align: center;
@@ -184,12 +189,13 @@ nav .fa-solid{
     color: black;
 }
 .tstmonial-col{
-    flex-basis: 44%;
+    flex-basis: 29%;
     border-radius: 10px;
     margin-bottom: 5%;
     text-align: left;
+    box-sizing: border-box;
     background: #b9ebff;
-    padding: 25px;
+    padding: 20px 12px;
     cursor: pointer;
     display: flex;
 }
