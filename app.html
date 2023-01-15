@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tring</title>
+        <link rel="stylesheet" href="style.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@700&display=swap" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css">
+    </head>
+    <body>
+        <section class="sub-header-app">
+            <nav>
+                <a href="index.html"><img src="images/T-removebg-preview.png"></a>
+                
+                <div class="nav-links" id="navlinks">
+                    <i class="fa-solid fa-xmark" onclick="hidemenu()"></i>
+                    <ul>
+                        <li><a href="index.html">Home</a></li>
+                        <li><a href="aboutus.html">About us</a></li>
+                        <li><a href="abouttring.html">About Tring</a> </li>
+                        <li><a href="app.html">Application</a></li>
+                        <li><a href="contacts.html">Contacts</a></li>
+                        <li><A href="https://www.youtube.com/@tring100">Our Channel</A></li>
+                    </ul>
+                </div>
+                <i class="fa-solid fa-bars" onclick="showmenu()"></i>
+            </nav>
+            <div class="txt-box">
+                <h1>Tring The Application</h1>
+                <section class="abtring">
+                    <H4>About our Application</H4>
+                    <p>Even though we have such security features,we needed an application for our innovation.<br>Tring has its own application.<br> which can be used by android users.</p>
+                    <p>The app is used to manually open and close the door</p>
+                    <p>Tring can be connected to the appliaction through password and our BLE module is also encrypted.<br> We are also updating the application while improving our device</p>
+                    
+                    <a href="Tring.apk" class="top-btn" download>Download Our App</a>
+                </section>
+                
+            </div>
+        </section>
+        
+        <script>
+            var navlinks = document.getElementById("navlinks")
+            function showmenu(){
+                navlinks.style.right="0";
+                navlinks.style.visibility="visible";
+            }
+            function hidemenu(){
+                navlinks.style.visibility="hidden";
+            }
+        </script>
+        
+        
+    </body>
+</html>
